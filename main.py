@@ -22,7 +22,7 @@ import pyautogui
 
 
 
-token = "WgjiS9twmtOcFRzPCLbRBY__aUuCGW3CT2l3WJsoejrA7_vCtjlFY3FlmvRGqXktbSBVDQ."
+token = ""
 
 engine = pyttsx3.init('sapi5')
 
@@ -98,7 +98,7 @@ def chat(query):
     if query is None or query.strip() == "":
         return None
     
-    openai.api_key = "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"
+    openai.api_key = ""
     chatStr += f": {query}\n"
     
     response = openai.Completion.create(
