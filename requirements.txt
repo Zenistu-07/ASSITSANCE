@@ -1,0 +1,14 @@
+pyttsx3
+SpeechRecognistion
+openai
+datetime
+subprocess
+webbrowser
+time
+pyaudio
+GoogleBard
+PyDictionary
+pyautogui
+requests
+cdifflib
+warnings
